@@ -15,8 +15,8 @@
 *{
     margin: 0;
     font-family: 'ones-medium';
- 
 }
+
 .menu-principal{
     margin: 15px;
     align-items: center;
@@ -29,7 +29,8 @@
     border-radius: 5px;
 }
 .Company {
-   
+   border-radius: 10px;
+   padding: 10px;
    border: 1px solid white;
    
 
@@ -64,6 +65,7 @@
     background: linear-gradient(to right, rgba(28, 52, 51, 0.9), rgba(28, 52, 51, 0.4)), url(../img/her\ 1.png) no-repeat center center;
     object-fit: cover;
     background-size: cover;
+
 }
 .banner>h1 {
     margin-top: 120px;
@@ -96,48 +98,56 @@
     color: white;
 }
 
-.tela2>img{
+.tela2 img{
     height:100vh ;
-    width: 50vw;
     object-fit: cover;
+    width: 50%;
+
 }
-.tela2{
+.figure{
     background-color: #2B2D3D;
     height: 100vh;
-    width: 200vh;
-    display: flex;
- 
+    width: 50%;
+    float: right; 
 }
 .tela2 h1{
-    margin-top: 200px;
+
+    margin: 150px 0 25px 100px ;
     font-family: 'ones-medium';
-   
     color: #53CC6C;
-    font-size: 100x;
+    font-size: 30px;
+    
 
 }
 .tela2 p{
+    margin-left:100px ;
+    margin-bottom: 20px;
     color: white;
-    margin-top: 400px;
+    font-family: 'ones-regular';
+    font-size: 15px;
+  
  
 }
 .tela2 ul{
+    margin-left: 60px;
+    margin-bottom: 80px;
     color: white;
-    margin-top: 500px;
-   list-style: none;
+    list-style: none;
     
 }
 .tela2 i{
     color: #53CC6C;
-    margin-right: 10px;
+    font-size: 20px;
+ 
 }
 .tela2 a{
-
+    margin-left: 100px;
     text-decoration: none;
-    margin-top: 500px;
     color: white;
     background-color: #53CC6C;
     border: solid #53CC6C;
+    padding: 15px;
+    border-radius: 10px;
 }
 .tela2 a:hover {
     transition: 1S;
@@ -147,44 +157,93 @@
 }
 .tela3{
     background-color: white;
-    height: 100vh;
+    height: 70vh;
+    margin: 120px 120px 0 120px;
  }
 
 
 .img3 img{
-   margin-right: 20px;
    float: right;
-   width: 50;
+   width: 50%;
 }
 
 
 .tela3 h1{
+    margin-bottom: 20px;
     color: #669997;
     font-family: 'ones-medium';
-    margin-bottom:150px ;
+  
+    
 }
 .tela3 p{
     color: black;
+    font-family: 'ones-regular';
     margin-bottom: 20px;
+ 
 
 }
 .tela3 ul{
     color: black;
-    margin-bottom: 20px;
-
+    margin-bottom: 50px;
+    padding: 10px;
+    list-style: none;
+     
 }
 .tela3 i{
-    color:#53CC6C ;
+    background-color:#53CC6C ;
 }
 .tela3 a{
     text-decoration: none;
     color: #669997;
-    border: solid;
-    padding: 10px;
-    
+    border:1px solid;
+    padding: 20px;
+    border-radius:10px ;
 }
 .tela3>a:hover {
     transition: 1s;
     color: white;
     background-color: #669997;
+}
+
+.tela4{
+    background-color: #FFF8F4;
+    height: 100vh;
+    width: 100vw;
+}
+.fundo4 img{
+
+ margin-top:100px ;
+ float: right;
+ margin-left: 60px;
+
+}
+.tela4 h1{
+    font-family: 'ones-bold';
+    color: #E9763D;
+    font-size:30px ;
+    padding: 120px 0 20px 110px;
+}
+.tela4 h2{
+    font-family: 'ones-medium';
+    color: black;
+    font-size: 18px;
+    padding:0 0 25px 130px ;
+}
+.tela4 p{
+    font-family: 'ones-regular';
+    color: black;
+    padding: 0 0 80px 110px;
+}
+.tela4 a{
+    text-decoration: none;
+    color: #E9763D;
+    border-radius: 5px;
+    border:1px solid #E9763D;
+    margin: 0 0 0 110px;
+    padding: 15px;
+}
+.tela4 a:hover{
+    transition: 1s;
+    background-color:#E9763D ;
+    color: white;
 }
