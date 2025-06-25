@@ -101,14 +101,22 @@
 .tela2 img{
     height:100vh ;
     object-fit: cover;
-    width: 50%;
-
+    float: left;
+    display: flex;
+    
+  
 }
 .figure{
     background-color: #2B2D3D;
     height: 100vh;
+   
+
+   
+}
+.fundobg{
+    background-color: #2B2D3D;
     width: 50%;
-    float: right; 
+    height: 100vh;
 }
 .tela2 h1{
 
@@ -157,25 +165,28 @@
 }
 .tela3{
     background-color: white;
-    height: 70vh;
-    margin: 120px 120px 0 120px;
+    height: 100vh;
+    
+  
  }
 
 
 .img3 img{
    float: right;
-   width: 50%;
+   height: 100vh;
+   object-fit: cover;
+
 }
 
-
 .tela3 h1{
-    margin-bottom: 20px;
+    margin: 120px 0 20px 50px;
     color: #669997;
     font-family: 'ones-medium';
   
     
 }
 .tela3 p{
+    margin: 20px 0 0 50px;
     color: black;
     font-family: 'ones-regular';
     margin-bottom: 20px;
@@ -183,6 +194,7 @@
 
 }
 .tela3 ul{
+    margin: 20px 0 0 40px;
     color: black;
     margin-bottom: 50px;
     padding: 10px;
@@ -193,26 +205,28 @@
     background-color:#53CC6C ;
 }
 .tela3 a{
+    margin: 20px 0 0 50px;
     text-decoration: none;
     color: #669997;
     border:1px solid;
-    padding: 20px;
+    padding: 30px;
     border-radius:10px ;
 }
-.tela3>a:hover {
+.tela3>a:hover{
     transition: 1s;
     color: white;
     background-color: #669997;
 }
 
 .tela4{
+    
     background-color: #FFF8F4;
     height: 100vh;
     width: 100vw;
 }
 .fundo4 img{
 
- margin-top:100px ;
+ padding-top:2px ;
  float: right;
  margin-left: 60px;
 
@@ -246,4 +260,297 @@
     transition: 1s;
     background-color:#E9763D ;
     color: white;
+}
+
+.tela5{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0;
+}
+.tela5 h1{
+    
+    font-size: 40px;
+    font-style: 'ones-bold';  
+    margin-top: 80px;
+    padding: 10px 0 0 70px;
+}
+.p1{
+    font-size: 12px;
+    margin-top: 100px ;
+    font-size: 'ones-regular';
+}
+.quadrado-pai1{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 380px;
+    margin-top: 150px;
+    margin-left: 50px;
+    border: 3px ;
+    border-radius: 20px solid ;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+ 
+}
+.quadrado-pai1 img{
+    border-radius: 10px;    
+}
+.quadrado-filho1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+   
+  
+    width:100%;
+    height:100% ;
+    border-radius: 20px;
+    object-fit: contain;
+    object-position: center;
+}
+.quadrado-filho1 h2{
+    margin: 300px 0 0 0 ;
+    font-size: 20px;
+
+}
+.quadrado-filho1 p{
+    font-size:12px ;
+
+}
+.quadrado-filho1 a{
+
+    color: white;
+    text-decoration: none;
+}
+.quadrado-filho1 a:hover{
+    color:#53CC6C
+}
+
+.tela5bo {
+    margin-top: 600px;
+}
+.tela5bo a{
+   margin-right: 120px;
+}
+.apr{
+    text-decoration: none;
+    color: #53CC6C;
+    border-radius: 8px;
+    border:1px solid #53CC6C;
+    padding: 15px;
+
+}
+.apr:hover{
+    background-color: #53CC6C;
+    color: white;
+    transition: 1s;
+}
+
+.tela6{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 0 ;
+    background-color: #F5F2EC;
+}
+.tela6 h1{
+
+    font-size: 30px;
+    font-style: 'ones-bold';  
+    margin-top: 80px;
+    padding: 10px 0 0 200px;
+}
+.tela6 p{
+
+    font-size: 15px;
+    margin-top: 90px ;
+    font-size: 'ones-regular';
+}
+.tela6 a{
+    text-decoration: none;
+     
+}
+.fundobr6{
+    margin-top: 600px;
+    margin-right: 120p;
+
+}
+
+.botao6{
+    color: #53CC6C;
+    border-radius: 5px;
+    border:1px solid #53CC6C;
+    padding: 15px;
+    text-decoration: none;
+
+}
+.botao6:hover{
+    transition: 1s;
+    background-color: #53CC6C;
+    color: white;
+
+}
+.quadrado-pai2{
+     position: relative;
+    display: inline-block;
+    width: 380px;
+    height: 380px;
+    margin: 150px 20px 20px 100px;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.quadrado-pai2 img{
+
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.quadrado-filho2{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+   
+}
+.quadrado-filho2 h1{
+    font-size: 20px;
+    padding:0 50px 40px 0   ;
+}
+.quadrado-filho2 a{
+    color:#53CC6C;
+    margin-right: 200px;
+}
+.quadrado-filho2 a:hover{
+    color: #9aefab;
+}
+
+
+
+.fundo7 img{
+    border-radius: 20px;
+    padding: 100px ;
+    
+    float: left;
+}
+.tela7 h1{
+   padding-top: 200px;
+   padding-bottom: 10px;
+    font-size: 30px;
+    font-style: 'ones-bold';
+}
+.tela7 h2{
+    padding-bottom: 10px;
+    font-size:15px ;
+    font-style: 'ones-medium';
+
+}
+.tela7 p{
+    font-size: 12px;
+    font-style: 'ones-regular';
+    padding-bottom: 30px;
+}
+.tela7 a{
+    color: #53CC6C;
+    text-decoration: none;
+    border-radius: 5px;
+    border:1px solid #53CC6C;
+    padding: 15px;
+}
+.tela7 a:hover{
+    color:white;
+    background-color: #53CC6C;
+    transition: 1s;
+}
+
+.cima{
+    background-color: #ffffff;
+    margin-top: 200px ;
+    padding: 50px;
+ 
+
+}
+.cima h1{
+   text-align: center;
+    font-size: 30px;
+    font-style: 'ones-bold';
+   
+}
+.cima h2{
+    text-align: center;
+    font-size: 15px;
+    font-style: 'ones-regular';
+
+}
+.frame1{
+    margin: 80px 0 50px 420px ;
+}
+.frame2{
+    margin: 0 0 0 550px;
+}
+
+.tela8{
+    height: 80vh;
+    width: 80vw;
+    background-color: #2B2D3D;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.fundo8 img{
+    float: right;
+    object-fit: cover;
+   object-position: center; 
+    
+
+}
+.tela8 h1{
+    padding: 100px 0 0 0;
+    margin:0 0 25px 100px ;
+    font-family: 'ones-medium';
+    color: #53CC6C;
+    font-size: 30px;
+}
+.tela8 p{
+    margin: 0 0 20px 100px ;
+    color: white;
+    font-family: 'ones-regular';
+    font-size: 15px;
+}
+.tela8 ul{
+    margin:0 0 60px 70px ;
+    color: white;
+    list-style: none;
+}
+.tela8 i{
+
+    color: #53CC6C;
+    font-size: 20px
+}
+.tela8 a{
+    margin: 0 0  0 100px ;
+    color: white;
+    background-color: #53CC6C;
+    border: solid #53CC6C;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.tela8 a:hover{
+     transition: 1S;
+    background-color: white;
+    color: #53CC6C;
+
 }
