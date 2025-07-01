@@ -100,15 +100,24 @@
 
 .tela2 img{
     height:100vh ;
+   
     object-fit: cover;
-    width: 50%;
-
+    float: left;
+    display: flex;
+    
+  
 }
 .figure{
     background-color: #2B2D3D;
     height: 100vh;
+   
+
+   
+}
+.fundobg{
+    background-color: #2B2D3D;
     width: 50%;
-    float: right; 
+    height: 100vh;
 }
 .tela2 h1{
 
@@ -157,25 +166,28 @@
 }
 .tela3{
     background-color: white;
-    height: 70vh;
-    margin: 120px 120px 0 120px;
+    min-height: 100vh;
+    margin-bottom: 50px;
+  
  }
 
 
 .img3 img{
    float: right;
-   width: 50%;
+   height: 100vh;
+   object-fit: cover;
+
 }
 
-
 .tela3 h1{
-    margin-bottom: 20px;
+    margin: 120px 0 20px 50px;
     color: #669997;
     font-family: 'ones-medium';
   
     
 }
 .tela3 p{
+    margin: 20px 0 0 50px;
     color: black;
     font-family: 'ones-regular';
     margin-bottom: 20px;
@@ -183,6 +195,7 @@
 
 }
 .tela3 ul{
+    margin: 20px 0 0 40px;
     color: black;
     margin-bottom: 50px;
     padding: 10px;
@@ -193,27 +206,28 @@
     background-color:#53CC6C ;
 }
 .tela3 a{
+    margin: 20px 0 0 50px;
     text-decoration: none;
     color: #669997;
     border:1px solid;
-    padding: 20px;
+    padding: 30px;
     border-radius:10px ;
 }
-.tela3>a:hover {
+.tela3>a:hover{
     transition: 1s;
     color: white;
     background-color: #669997;
 }
 
 .tela4{
-    margin-top: 100px;
+    
     background-color: #FFF8F4;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 }
 .fundo4 img{
 
- margin-top:2px ;
+ padding-top:2px ;
  float: right;
  margin-left: 60px;
 
@@ -222,7 +236,7 @@
     font-family: 'ones-bold';
     color: #E9763D;
     font-size:30px ;
-    padding: 120px 0 20px 110px;
+    padding: 100px 0 20px 110px;
 }
 .tela4 h2{
     font-family: 'ones-medium';
@@ -233,7 +247,7 @@
 .tela4 p{
     font-family: 'ones-regular';
     color: black;
-    padding: 0 0 80px 110px;
+    padding: 0 0 70px 110px;
 }
 .tela4 a{
     text-decoration: none;
@@ -250,31 +264,26 @@
 }
 
 .tela5{
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0;
+    min-height: 100vh;
 }
 .tela5 h1{
     
     font-size: 40px;
     font-style: 'ones-bold';  
-    margin-top: 80px;
-    padding: 10px 0 0 70px;
+
+    padding: 20px 0 0 60px;
 }
 .p1{
     font-size: 12px;
-    margin-top: 100px ;
+   padding: 0 0 0 60px;
     font-size: 'ones-regular';
 }
 .quadrado-pai1{
     position: relative;
     display: inline-block;
     width: 250px;
-    height: 380px;
-    margin-top: 150px;
-    margin-left: 50px;
+    height: 410px;
+    margin: 10px 0 10px 10px ;
     border: 3px ;
     border-radius: 20px solid ;
     background-color: rgb(255, 255, 255);
@@ -282,7 +291,8 @@
  
 }
 .quadrado-pai1 img{
-    border-radius: 10px;    
+    border-radius: 10px; 
+    object-fit: cover;   
 }
 .quadrado-filho1{
     position: absolute;
@@ -300,7 +310,7 @@
     object-position: center;
 }
 .quadrado-filho1 h2{
-    margin: 300px 0 0 0 ;
+    margin: 280px 0 0 0 ;
     font-size: 20px;
 
 }
@@ -317,18 +327,14 @@
     color:#53CC6C
 }
 
-.tela5bo {
-    margin-top: 600px;
-}
-.tela5bo a{
-   margin-right: 120px;
-}
 .apr{
+
+    margin: 0 0 0 500px ;
     text-decoration: none;
     color: #53CC6C;
     border-radius: 8px;
     border:1px solid #53CC6C;
-    padding: 15px;
+    padding: 30px;
 
 }
 .apr:hover{
@@ -338,40 +344,32 @@
 }
 
 .tela6{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 0 ;
+    min-height: 100vh;
     background-color: #F5F2EC;
 }
 .tela6 h1{
 
     font-size: 30px;
     font-style: 'ones-bold';  
-    margin-top: 80px;
-    padding: 10px 0 0 200px;
+    padding: 50px 0 0 200px;
 }
 .tela6 p{
 
     font-size: 15px;
-    margin-top: 90px ;
+    margin: 0 0 50px 200px   ;
     font-size: 'ones-regular';
 }
 .tela6 a{
     text-decoration: none;
      
 }
-.fundobr6{
-    margin-top: 600px;
-    margin-right: 120p;
-
-}
 
 .botao6{
     color: #53CC6C;
     border-radius: 5px;
     border:1px solid #53CC6C;
-    padding: 15px;
+    padding: 20px;
+    margin: 0 0 0 500px;
     text-decoration: none;
 
 }
@@ -386,7 +384,7 @@
     display: inline-block;
     width: 380px;
     height: 380px;
-    margin: 150px 20px 20px 100px;
+    margin: 0 0 0 20px ;
     background-color:rgb(255, 255, 255) ;
     border-radius: 20px;
     text-align: center;
@@ -424,7 +422,10 @@
 }
 
 
-
+.tela7{
+    min-height: 100px;
+ 
+}
 .fundo7 img{
     border-radius: 20px;
     padding: 100px ;
@@ -434,7 +435,7 @@
 .tela7 h1{
    padding-top: 200px;
    padding-bottom: 10px;
-    font-size: 30px;
+    font-size: 50px;
     font-style: 'ones-bold';
 }
 .tela7 h2{
@@ -444,16 +445,17 @@
 
 }
 .tela7 p{
-    font-size: 12px;
+    font-size: 18px;
     font-style: 'ones-regular';
     padding-bottom: 30px;
 }
 .tela7 a{
     color: #53CC6C;
     text-decoration: none;
+    font-size: 20px;
     border-radius: 5px;
     border:1px solid #53CC6C;
-    padding: 15px;
+    padding: 20px;
 }
 .tela7 a:hover{
     color:white;
@@ -488,29 +490,30 @@
 }
 
 .tela8{
-    height: 80vh;
+    min-height: 80vh;
     width: 80vw;
     background-color: #2B2D3D;
     border-radius: 20px;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 50px;
 }
 .fundo8 img{
     float: right;
     object-fit: cover;
    object-position: center; 
+   border-radius: 20px;
     
 
 }
 .tela8 h1{
     padding: 100px 0 0 0;
-    margin:0 0 25px 100px ;
+    margin:0 0 25px 70px ;
     font-family: 'ones-medium';
     color: #53CC6C;
     font-size: 30px;
 }
 .tela8 p{
-    margin: 0 0 20px 100px ;
+    margin: 0 0 20px 70px ;
     color: white;
     font-family: 'ones-regular';
     font-size: 15px;
@@ -526,7 +529,7 @@
     font-size: 20px
 }
 .tela8 a{
-    margin: 0 0  0 100px ;
+    margin: 0 0  0 70px ;
     color: white;
     background-color: #53CC6C;
     border: solid #53CC6C;
@@ -540,4 +543,23 @@
     background-color: white;
     color: #53CC6C;
 
+}
+
+@media screen and (min-width:562px) and (max-width: 768px) {
+
+.apr{
+   
+    padding: 15px;
+    margin-left: 200px;
+}
+
+.botao6{
+    padding: 15px;
+    margin-left: 200px ;
+}
+
+.h7
+{
+   margin-left: 90px;
+}
 }
